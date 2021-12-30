@@ -1,2 +1,2 @@
 # codeabbey solutions
-I am aware codeabbey wants to avoid sharing solutions, I do advise you to not copy word for word my scripts! These are for refrence to anyone wanting to find out how to make something. I am a rust newbie and to learn I am doing codeabbey.
+I am aware codeabbey wants to avoid sharing solutions, I do advise you to not copy my scripts it will result in you account getting banned!!! These are for refrence to anyone wanting to find out how to make something (So really just an example or a prrof of concept). I am a avid believer in "Learn via examples", I hope this repo can help you out in your rust programming journey!
