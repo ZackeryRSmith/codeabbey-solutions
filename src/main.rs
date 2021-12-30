@@ -64,6 +64,7 @@ fn main() {
     max_min_of_array::run(vector1);
     */
     
+<<<<<<< HEAD
     let raw_data = String::from("data here");
     let mut vector1: Vec<f32> = vec![];
     for number in raw_data.split_whitespace().into_iter() {
@@ -71,4 +72,40 @@ fn main() {
     }
     
     println!("{:?}", dice_rolling::run(vector1));
+=======
+    let raw_data = String::from("0.19024707609788
+0.57775597367436
+0.76489249337465
+0.08663949277252
+0.30960991838947
+0.44025089824572
+0.58970281574875
+0.26440902566537
+0.38951328024268
+0.59888464538381
+0.042100549209863
+0.559707055334
+0.043924713972956
+0.16023826412857
+0.53505248716101
+0.057690093759447
+0.48253987496719
+0.39592135604471
+0.76049414370209
+0.82838627509773
+0.9889919841662
+0.31147349299863
+0.67904654843733
+0.33152874559164
+0.3242226280272
+0.51369008002803");
+    let mut data: Vec<f32> = vec![];
+    for number in raw_data.split_whitespace().into_iter() {
+        data.push(number.parse::<f32>().unwrap());
+    }
+    let answer: Vec<i32> = dice_rolling::run(data);
+    
+    //println!("{:?}", dice_rolling::run(vector1));
+    answer.iter().for_each(|val| print!("{} ", val));
+>>>>>>> master
 }
